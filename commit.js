@@ -14,8 +14,8 @@ async function makeFakeCommit(date) {
 
 // Generate commits from Feb 1 2023 to June 1 2025
 (async () => {
-  let currentDate = moment('2021-02-01');
-  const endDate = moment('2025-08-15');
+  let currentDate = moment('2020-01-01');
+  const endDate = moment('2025-09-15');
   
   while (currentDate <= endDate) {
     await makeFakeCommit(currentDate);
